@@ -1,0 +1,6 @@
+# All unpinned blobs below are extracted from ZUI_13.5.365_ST_220526
+
+# Touchscreen firmware
+vendor/firmware/Himax_firmware.bin:recovery/root/vendor/firmware/Himax_firmware.bin
+vendor/firmware/Himax_mpfw.bin:recovery/root/vendor/firmware/Himax_mpfw.bin
+vendor/firmware/hx_criteria.csv:recovery/root/vendor/firmware/hx_criteria.csv

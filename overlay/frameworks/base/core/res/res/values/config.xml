@@ -114,7 +114,7 @@
         This array should have size one greater than the size of the config_autoBrightnessLevels
         array. The brightness values must be non-negative and non-decreasing. This must be
         overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
+    <array name="config_autoBrightnessDisplayValuesNits">
         <item>3.5</item>
         <item>4.3</item>
         <item>5.0</item>
@@ -214,7 +214,7 @@
         <item>971.4</item>
         <item>985.7</item>
         <item>1000.0</item>
-    </integer-array>
+    </array>
 
     <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
         The N entries of this array define N + 1 control points as follows:
@@ -285,33 +285,33 @@
         <item>1700</item>
         <item>1900</item>
         <item>2000</item>
-        <item>2500</
-        <item>3000</item
-        <item>3500</item
-        <item>4000</item
-        <item>4500</item
-        <item>5000</
-        <item>5500</
-        <item>6000</
-        <item>6500</
-        <item>7000</
-        <item>7500</item
-        <item>8000</item
-        <item>8500</item
-        <item>9000</item
-        <item>9500</item
-        <item>10000</item
-        <item>10500</item
-        <item>11000</
-        <item>11500</
-        <item>12000</item
-        <item>12500</item
-        <item>13000</item
-        <item>13500</item
-        <item>14000</item
-        <item>14500</item
-        <item>15000</item
-        <item>16000</item
+	<item>2500</item>
+	<item>3000</item>
+	<item>3500</item>
+	<item>4000</item>
+	<item>4500</item>
+	<item>5000</item>
+	<item>5500</item>
+	<item>6000</item>
+	<item>6500</item>
+	<item>7000</item>
+	<item>7500</item>
+	<item>8000</item>
+	<item>8500</item>
+	<item>9000</item>
+	<item>9500</item>
+	<item>10000</item>
+	<item>10500</item>
+	<item>11000</item>
+	<item>11500</item>
+	<item>12000</item>
+	<item>12500</item>
+	<item>13000</item>
+	<item>13500</item>
+	<item>14000</item>
+	<item>14500</item>
+	<item>15000</item>
+	<item>16000</item>
         <item>17000</item>
         <item>18000</item>
         <item>19000</item>
@@ -323,22 +323,22 @@
         <item>25000</item>
         <item>26000</item>
         <item>27000</item>
-        <item>28000</item
-        <item>29000</item
-        <item>30000</item
-        <item>35000</item
-        <item>40000</item
-        <item>45000</item
-        <item>50000</item
-        <item>55000</item
+	<item>28000</item>
+	<item>29000</item>
+	<item>30000</item>
+	<item>35000</item>
+	<item>40000</item>
+	<item>45000</item>
+	<item>50000</item>
+	<item>55000</item>
         <item>60000</item>
-        <item>65000</item>
-        <item>70000</item
-        <item>75000</item
-        <item>80000</item
-        <item>85000</item
-        <item>90000</item
-        <item>95000</item
+	<item>65000</item>
+	<item>70000</item>
+	<item>75000</item>
+	<item>80000</item>
+	<item>85000</item>
+	<item>90000</item>
+	<item>95000</item>
         <item>100000</item>
     </integer-array>
 
@@ -349,24 +349,24 @@
         this threshold, it is applied. See the config_screenThresholdLevels description for how
         the constraint value is chosen. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>2</item
+	<item>2</item>
         <item>3</item>
         <item>10</item>
         <item>15</item>
-        <item>30</item
-        <item>45</item
-        <item>60</item
-        <item>75</item
-        <item>90</item
+	<item>30</item>
+	<item>45</item>
+	<item>60</item>
+	<item>75</item>
+	<item>90</item>
         <item>105</item>
         <item>120</item>
         <item>135</item>
         <item>150</item>
         <item>165</item>
-        <item>180</item
-        <item>195</item
-        <item>210</item
-        <item>225</item
+	<item>180</item>
+	<item>195</item>
+	<item>210</item>
+	<item>225</item>
         <item>240</item>
         <item>255</item>
     </integer-array>
@@ -392,8 +392,8 @@
         <item>290</item>
         <item>326</item>
         <item>352</item>
-        <item>384</item
-        <item>399</item
+	<item>384</item>
+	<item>399</item>
         <item>422</item>
         <item>432</item>
         <item>442</item>
@@ -430,8 +430,8 @@
         <item>800</item>
         <item>800</item>
         <item>500</item>
-        <item>500</item
-        <item>500</item
+	<item>500</item>
+	<item>500</item>
     </integer-array>
 
     <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
@@ -461,7 +461,7 @@
         than this threshold, it is applied. See the config_screenThresholdLevels description for
         how the constraint value is chosen. -->
     <integer-array name="config_screenBrighteningThresholds">
-        <item>0</item
+	<item>0</item>
     </integer-array>
 
     <!-- Array of hysteresis constraint values for darkening, represented as tenths of a

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tb128fu.mk
+    $(LOCAL_DIR)/evolution_tb128fu.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tb128fu-user \
-    lineage_tb128fu-userdebug \
-    lineage_tb128fu-eng
+    evolution_tb128fu-user \
+    evolution_tb128fu-userdebug \
+    evolution_tb128fu-eng

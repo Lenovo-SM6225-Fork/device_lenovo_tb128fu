@@ -8,6 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
+TARGET_BUILD_APERTURE_CAMERA := true
+
 # Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_tablet_wifionly.mk)
 

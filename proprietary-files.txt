@@ -69,6 +69,7 @@ vendor/lib/soundfx/libshoebox.so
 
 # Audio HAL
 vendor/lib/hw/audio.primary.bengal.so
+vendor/lib/hw/sound_trigger.primary.bengal.so
 vendor/lib/libaudio_log_utils.so
 
 # Audio Libraries

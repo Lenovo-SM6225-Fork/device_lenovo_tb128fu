@@ -10,7 +10,7 @@ DEVICE_PATH := device/lenovo/tb128fu
 TARGET_SCREEN_DENSITY := 440
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := tb128fu
+TARGET_OTA_ASSERT_DEVICE := tb128fu,TB128FU,qssi,generic
 
 # Inherit from sm6225-common
 include device/lenovo/sm6225-common/BoardConfigCommon.mk

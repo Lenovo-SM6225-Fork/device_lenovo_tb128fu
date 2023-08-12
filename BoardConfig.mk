@@ -7,7 +7,7 @@
 DEVICE_PATH := device/lenovo/tb128fu
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 240
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := tb128fu,TB128FU,qssi,generic

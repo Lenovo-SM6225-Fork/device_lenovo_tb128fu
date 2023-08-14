@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="battery.capacity">8400</item>
+    <item name="battery.capacity">7500</item>
     <item name="screen.on">79.01</item>
     <item name="screen.full">479.19</item>
     <item name="camera.flashlight">158</item>
@@ -8,8 +8,8 @@
     <item name="video">53.25</item>
     <item name="audio">35.94</item>
     <array name="cpu.clusters.cores">
-        <value>6</value>
-        <value>2</value>
+        <value>4</value>
+        <value>4</value>
     </array>
     <item name="cpu.suspend">5.43</item>
     <item name="cpu.idle">3.61</item>

@@ -236,9 +236,6 @@ vendor/etc/camera/portrait/10_90.jpg
 vendor/etc/camera/portrait/AW_Portrait_Mask_License.data
 vendor/etc/camera/portrait/PS_D0_n_v3_finger_F16.m.bin
 
-# Camera Device
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-
 # Camera Feature
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.anchorsync.so

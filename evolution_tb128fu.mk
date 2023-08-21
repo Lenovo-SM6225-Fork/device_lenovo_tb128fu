@@ -9,7 +9,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_FACE_UNLOCK_SUPPORTED := false
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 

@@ -102,6 +102,8 @@ vendor/lib/libsurround_3mic_proc.so
 
 # Camera
 vendor/bin/f2player
+vendor/lib/libofflinelog.so
+vendor/lib/libopencv.so
 vendor/lib64/camera/com.qti.sensor.gc08a3_lce_front_ii.so
 vendor/lib64/camera/com.qti.sensor.gc08a3_qtech_back_ii.so
 vendor/lib64/camera/com.qti.sensor.ov13b10_oflim_back_i.so
